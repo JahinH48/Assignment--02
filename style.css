@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 1st container  */
+
+.backgrond-1{
+    background-color: #2D25A0;
+}
+.first-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+
+}
+.text-1{
+    margin-top: 185px;
+    margin-left: 105px;
+    font-size: 29px;
+    color: white;
+    
+
+}
+.copa{
+
+}
+.button-top{
+   
+    background-color: #E02C6D;
+    border-radius: 11px;
+
+}
+.button-top:hover{
+    background-color: #ecdbe1;
+    border-radius: 11px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #DA224D;
+    padding: 11px;
+    font-size: 19px;
+    padding: 11px;
+
+    box-shadow: 0px 5px 40px #DA224D;
+}
+.watch:hover{
+    color: #DA224D;
+    font-weight: 700;
+}
+.watch{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 11px;
+    font-weight: 700;
+}
+.fa-arrow-right{
+    font-size: 19px;
+    padding: 11px;
+}
+.image-1{
+    margin-top: 100px;
+    margin-bottom: 83px;
+}
+.kick-image{
+    width: 556.01px;
+    height: 438px;
+}
+/* 1st container end */
+
+
+ /*======================================
+            2nd section Start
+   ============================================ */
+ .container-2{
+    width: 86%;
+    margin: 0 auto;
+}
+   .main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.conten-box{
+    width: 322px;
+    height: 474px;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.player-2{
+    width: 287px;
+    height: 256px;
+    padding: 17px;
+    border-radius: 39px;
+}
+
+.top-article{
+
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -14px;
+    margin-left: 15px;
+
+}
+.about{
+    padding: 13px;
+    margin-top: -12px;
+    font-size: 14px;
+} 
+ /*======================================
+            2nd section End
+   ============================================ */
+ /*======================================
+            3rd section start
+   ============================================ */
+
+   .High{
+       color: black;
+   }
+ /*======================================
+            3rd section End
+   ============================================ */
+ /*======================================
+            Footer Start
+   ============================================ */
+
+   .main-footer{
+    margin: 0 auto;
+    
+    height: 400px;
+    width: 678px;
+    margin-top: 50px;
+   }
+   .footer-logo{
+    width: 586px;
+    padding: 10px;
+    margin-left: 28px;
+   }
+   .icon{
+    width: 286px;
+    
+    margin: auto;
+   }
+   .icon img{
+    width: 56px;
+    padding: 5px
+   }
+   .copy{
+   
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 14px;
+   }
+   .copy-icon{
+
+   }
+ /*======================================
+            Footer End
+   ============================================ */
+
+
+/*============================
+         Mobile screen
+ ============================ */
+@media screen and (max-width:668px) {
+    main{
+        margin: 0 auto;
+    } 
+    .first-container{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* hober */
+    .button-top:hover{
+        background-color: #ecdbe1;
+        border-radius: 11px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #DA224D;
+        padding: 11px;
+        font-size: 19px;
+        padding: 11px;
+    
+        box-shadow: 0px 5px 40px #DA224D;
+    }
+    .watch:hover{
+        color: #DA224D;
+        font-weight: 700;
+    }
+    /* hober */
+    .kick-image{
+        height: 450px;
+        width: 300px;
+    }
+    
+    .text-1{
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+
+    .main-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* footer  */
+    .main-footer{
+        margin: 0 auto;
+        height: 399px;
+        width: 100%;
+        margin-top: 46px;
+       }
+       .footer-logo{
+        width: 233px;
+        padding: 10px;
+        margin-left: 28px;
+       }
+      
+}
