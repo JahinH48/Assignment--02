@@ -196,9 +196,11 @@ body{
     .kick-image{
         height: 450px;
         width: 352px;
+        margin-left: 6px;
     }
     
     .text-1{
+
         margin-left: 25px;
         margin-bottom: 50px;
     }
