@@ -73,8 +73,9 @@ ul.top-nav li.right {
     
 
 }
-.copa{
-
+.image-1:hover .kick-image{
+            transform: scale(1.3);
+            transition: transform 2s;
 }
 .button-top{
    
@@ -112,6 +113,8 @@ ul.top-nav li.right {
 .image-1{
     margin-top: 100px;
     margin-bottom: 83px;
+    
+    overflow: hidden;
 }
 .kick-image{
     margin-left: 31px;
@@ -135,7 +138,7 @@ ul.top-nav li.right {
 .conten-box{
     width: 322px;
     height: 474px;
-    border: 3px solid yellow;
+    box-shadow: 14px -8px 33px 1px;
     border-radius: 20px;
     margin-top: 50px;
 
@@ -174,6 +177,103 @@ ul.top-nav li.right {
    }
  /*======================================
             3rd section End
+   ============================================ */
+
+
+
+
+
+     /* ===========================
+                Latest News 
+        =========================================== */
+        .news-image {
+
+            width: 358px;
+            position: relative;
+        }
+
+        .news-image0 {
+            width: 384px;
+            height: 342px;
+            padding: 11px;
+            border-radius: 26px;
+        }
+
+        .news-article {
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            background-color: #00806e8f;
+            border-radius: 18px;
+            padding: 10px;
+            font-size: 15px;
+            height: 340px;
+            width: 388px;
+        }
+
+        .news-text {
+            padding: 11px;
+            font-size: 13px;
+            color: yellow;
+
+
+
+        }
+
+        .news-text-title {
+            background-color: aqua;
+            color: blue;
+            text-align: center;
+        }
+
+        .news-image:hover .news-article {
+            visibility: visible;
+        }
+
+        .news {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+
+        .news-title {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+            background-color: gray;
+            color: blue;
+            padding: 20px;
+        }
+
+        /* ===========================
+                Latest News 
+        =========================================== */
+
+
+
+ /*======================================
+           sopnsore 
+   ============================================ */
+    
+     .spons {
+        width: 29%;
+        height: 99px;
+    }
+
+    .sponsore {
+        font-size: 33px;
+        margin-bottom: 43px;
+        font-weight: 700;
+        text-align: center;
+        color: blue;
+        background: orange;
+    }
+
+
+
+
+ /*======================================
+            sopnsore
    ============================================ */
  /*======================================
             Footer Start
@@ -280,6 +380,10 @@ ul.top-nav li.right {
         width: 233px;
         padding: 10px;
         margin-left: 28px;
+       }
+       /* Latest news  */
+       .news{
+           grid-template-columns: repeat(1, 1fr);
        }
       
 }
