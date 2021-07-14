@@ -3,6 +3,56 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* header start  */
+ul.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 0, 248);
+}
+
+.login-top {
+    display: flex;
+    align-items: center;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    margin-left: -5px;
+    margin-right: 31px;
+    color: white;
+}
+
+ul.top-nav li {
+    float: left;
+}
+
+ul.top-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.top-nav li a:hover {
+    background-color: rgb(255, 10, 202);
+}
+
+.login-top:hover {
+    background-color: rgb(255, 10, 202);
+}
+
+
+
+ul.top-nav li.right {
+    float: right;
+}
+
+
+/* header End */
 
 /* 1st container  */
 
@@ -172,6 +222,16 @@ body{
     main{
         margin: 0 auto;
     } 
+    /* header start  */
+    ul.top-nav li,
+    ul.top-nav li {
+        float: none;
+    }
+
+    .right {
+        margin-right: 108px;
+    }
+    /* header end */
     .first-container{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
